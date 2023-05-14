@@ -13,9 +13,10 @@ function mindGame(num) {
     let result = (((num * 3) + 10) / 2) - 5;
     return result;
 }
+
 /* just for cheak */
 
-/* let output = mindGame(10);
+/* const output = mindGame(10);
 console.log(output);
  */
 
@@ -58,7 +59,7 @@ function isLGSeven(anyNumber) {
 
 
 /*In this funtion   input an arrey of numbers and 
-output will be show how many negetive numbers in this arrey.*/
+output will be show how many negetive numbers in this array.*/
 
 
 function findingBadData(arreyOfNumbers) {
@@ -99,5 +100,8 @@ function gemsToDiamond(friend1, friend2, friend3) {
     if (convertoDimond >= 2000) {
         return convertoDimond - 2000;
     }
-    return convertoDimond;
+    else {
+        return convertoDimond;
+    }
+        
 }
